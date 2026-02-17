@@ -1,0 +1,36 @@
+Restricciones 1:
+
+  1. Un controlador no puede trabajar más de ocho horas.
+
+  2. Un controlador tiene un único turno de trabajo asignado y no puede trabajar fuera
+  de este, con independencia de la duración.
+
+  3. Un controlador debe descansar el 25% del total de su jornada laboral mientras sea
+  en un turno de día, y un 50% en el caso de tratarse de un turno de noche.
+
+  4. Un controlador no puede trabajar más de dos horas consecutivas.
+
+  5. El descanso debe tener una duración mínima de media hora.
+
+  6. Un controlador debe permanecer en el mismo sector y misma posición durante al
+  menos media hora.
+
+  7. Un controlador no puede cambiar más de dos veces de sector, independientemente
+  de la posición dentro del sector, en un mismo turno entre sectores no antes.
+
+  8. Los tiempos de ocupación de las posiciones en los puestos deben estar compensados.
+
+  9. En cada slot de tiempo, un controlador solo puede ocupar una posición de un único
+  sector.
+
+  10. En cada slot de tiempo un sector tiene que tener asignado un único controlador por
+  cada posición, teniendo el sector asociadas dos posiciones.
+
+  11. No se permite cambiar de sector sin descanso, a menos que se produzca un cambio
+  de configuración y que los sector sean anes, en cuyo caso, se permite cambiar pero
+  se exige permanecer un mínimo de quince minutos. En caso contrario, se necesita
+  realizar un descanso para poder cambiar de sector.
+
+  12. Los sectores que se abran deben permanecer abiertos durante veinte minutos (esta
+  restricción afecta indirectamente a la solución, ya que afecta a la entrada del
+  problema).
